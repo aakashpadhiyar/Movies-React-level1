@@ -1,4 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
+  background-image: linear-gradient(#333, #222) ;
+  color: white;
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +17,35 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input{
+  color: white;
+  background-color: transparent;
+}
+
+.backdrop {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.detail-details {
+  background: white;
+  position: relative;
+  z-index: 10;
+  color: #333;
+  margin-top: 400px;
+  display: flex;
+  text-align: left;
+  gap: 20px;
+  padding: 20px;
+}
+
+.detail-poster {
+  position: relative;
+  margin-top: -100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
